@@ -1,0 +1,14 @@
+.profile {
+  position: relative;
+  margin-bottom: clamp(36px, 11vw, 50px);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+@media (max-width: 665px) {
+  .profile {
+    flex-direction: column;
+  }
+}

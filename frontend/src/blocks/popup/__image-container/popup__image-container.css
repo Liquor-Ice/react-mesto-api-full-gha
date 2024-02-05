@@ -1,0 +1,7 @@
+.popup__image-container {
+  display: inline-block;
+  max-width: 100vw;
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+}

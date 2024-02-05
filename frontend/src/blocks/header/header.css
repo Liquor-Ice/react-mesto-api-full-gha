@@ -1,0 +1,20 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: clamp(56px, 17.5vw, 74px);
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px 24px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(84 84 84 / .7);
+  background-image: url('../../images/mesto.png');
+  background-repeat: no-repeat;
+  background-size: clamp(104px, 32.5vw, 142px);
+}
+
+@media (max-width: 907px) {
+  .header {
+    background-position: 27px top;
+    padding-right: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+.profile__avatar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  aspect-ratio: 1/1;
+  transition: background-color .5s;
+}
+
+.profile__avatar-container:hover {
+  background-color: rgb(0 0 0 / .8);
+  background-image: url('../../../images/change.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 26px;
+}

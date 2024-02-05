@@ -1,0 +1,14 @@
+.profile__container {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: clamp(7px, 2vw, 9px);
+}
+
+@media (max-width: 665px) {
+  .profile__container {
+    justify-content: center;
+    gap: 10px;
+    padding-left: 28px;
+  }
+}

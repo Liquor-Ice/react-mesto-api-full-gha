@@ -1,0 +1,16 @@
+.profile__edit {
+  min-width: 24px;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  border: 1px solid #fff;
+  background-color: #000;
+  background-image: url('../../../images/Edit.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 665px) {
+  .profile__edit {
+    min-width: 18px;
+  }
+}
