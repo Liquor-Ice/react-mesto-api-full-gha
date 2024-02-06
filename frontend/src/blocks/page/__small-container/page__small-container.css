@@ -1,6 +1,0 @@
-.page__small-container {
-  width: calc(100% - 30px*2);
-  max-width: 358px;
-  margin-left: auto;
-  margin-right: auto;
-}
