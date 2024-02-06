@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 84.252.129.101
+IP 84.252.129.101
 
 Frontend https://plasticworld.nomoredomainswork.ru
 
