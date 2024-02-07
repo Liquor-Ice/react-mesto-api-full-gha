@@ -26,10 +26,7 @@ module.exports.login = (req, res, next) => {
 
           const token = jwt.sign({ _id: user._id }, NODE_ENV === 'production' ? JWT_SECRET : 'strong-secret', { expiresIn: '7d' });
 
-          return res.status(200).cookie('token', token, {
-            maxAge: 3600000 * 24 * 7,
-            httpOnly: true,
-          }).send({
+          return res.status(200).send({
             token,
           });
         });
